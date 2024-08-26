@@ -1,0 +1,7 @@
+Name
+BOBY
+Birth Date
+2023-09-07
+Type
+dog
+Edit PetDelete PetAdd Visit

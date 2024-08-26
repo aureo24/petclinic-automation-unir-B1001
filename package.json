@@ -1,0 +1,21 @@
+{
+  "name": "petclinic-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "devtest": "npx playwright test tests/Debug/devtest.spec.ts",
+    "devtesthead": "npx playwright test tests/Debug/devtest.spec.ts --headed",
+    "test": "npx playwright test --grep-invert @debug",
+    "report": "npx playwright show-report html-report"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.5.0",
+    "allure-commandline": "^2.30.0",
+    "allure-playwright": "^3.0.0-beta.10",
+    "playwright": "^1.46.1"
+  }
+}

@@ -1,0 +1,63 @@
+{
+    "NEW_OWNER":{
+        "FIRST_NAME":"Aureo",
+        "LAST_NAME":"Becerra",
+        "ADDRESS":"Test Address 5477",
+        "CITY":"Guadalajara",
+        "WRONG_NUMBER":"ABCD",
+        "NUMBER":"3341564798",
+        "FULL_NAME":"Aureo Becerra"
+    },
+    "NEW_SPECIALIST":{
+        "NEUROLOGY":"neurology",
+        "SPECIALIST_EDITED":"DUMMY"
+    },
+    "ERROR_MESSAGES":{
+        "ONLY_NUMBERIC_CHAR_NEW_OWNER":"Phone number only accept digits"
+    },
+    "NEW_PETTYPE":{
+        "COW":"COW",
+        "PETTYPE_EDITED":"DUMMY"
+    },
+    "NEW_VETERINARIAN":{
+        "FIRST_NAME":"JESICA",
+        "LAST_NAME":"GARCIA",
+        "FULL_NAME":"JESICA GARCIA",
+        "SPECIALIST":"surgery",
+        "SPECIALISTS":[
+            "dentistry",
+            "radiology"
+        ],
+        "VET_NAME_EDITED":"CESAR",
+        "VET_FULLNAME_EDITED":"CESAR GARCIA"
+    },
+    "NEW_PET":{
+        "NAME":"RON",
+        "BIRTH_DATE":"2023/09/07",
+        "TYPE":"cat"
+    },
+    "EDITED_PET":{
+        "NAME":"AMELIA",
+        "BIRTH_DATE":"2023/09/07",
+        "TYPE":"cat"
+    },
+    "DELETED_PET":{
+        "NAME":"BOBY",
+        "BIRTH_DATE":"2023/09/07",
+        "TYPE":"dog"
+    },
+    "NEW_VISIT":{
+        "OWNER":{
+            "FIRST_NAME":"Aureo",
+            "LAST_NAME":"Salazar",
+            "ADDRESS":"Test Address 5477",
+            "CITY":"Guadalajara",
+            "WRONG_NUMBER":"ABCD",
+            "NUMBER":"3341564798",
+            "FULL_NAME":"Aureo Becerra"
+        },
+        "PET_NAME":"RON",
+        "DATE":"2023/09/07",
+        "DESCRIPTION":"Anda malito"
+    }
+}

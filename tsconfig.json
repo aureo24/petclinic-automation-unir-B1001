@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "module": "commonjs",
+    "lib": [
+      "es2021",
+      "dom"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/constants/*": [ "src/data/*" ],
+      "@/pages/*": [ "src/pages/*" ],
+    }
+  },
+  "include": [
+    "/src/**/*",
+    "tests/**/*",
+  ],
+}

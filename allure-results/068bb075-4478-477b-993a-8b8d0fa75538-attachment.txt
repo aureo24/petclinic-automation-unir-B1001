@@ -1,0 +1,1 @@
+locator('tbody').locator('tr').first().locator('input[name=\'spec_name\']')
